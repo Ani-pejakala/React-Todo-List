@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 //import "bootstrap/dist/css/bootstrap.css";
 function NavBar({totalCounters}) {
   return (

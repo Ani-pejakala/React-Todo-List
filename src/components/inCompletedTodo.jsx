@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 function InCompletedTodo(props) {
   const { onCheck, onDelete, todo } = props;

@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 
 function Completed(props){
    const{onDelete,onCheck,todo,vis}=props;
-    if (!todo.done||!vis) return null;
+    if (!todo.done||!props.vis) return null;
     return (
       <li>
         <input type="checkbox" checked onChange={() =>onCheck(todo)} />
